@@ -1,8 +1,9 @@
 name: Deploy Frontend
 on:
   push:
-    branches:
-      - master # check your repo, your default branch might be master!
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
  
 jobs:
   build:
