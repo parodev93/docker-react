@@ -25,5 +25,5 @@ jobs:
           environment_name: Dockergh-env
           existing_bucket_name: elasticbeanstalk-eu-central-1-851725185041
           region: eu-central-1
-          version_label: ${{ github.sha }}
+          version_label: ${{ github.sha }} 
           deployment_package: deploy.zip
