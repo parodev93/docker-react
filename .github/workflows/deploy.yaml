@@ -1,4 +1,4 @@
-name: Deploy Frontend
+name: Test Frontend
 on:
   push:
     branches: [ master ]
